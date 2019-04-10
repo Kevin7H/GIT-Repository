@@ -45,4 +45,3 @@ public class Computer {
 		System.out.println("We can play music on our computer "+brand);
 	}
 }
-

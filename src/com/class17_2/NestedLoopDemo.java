@@ -3,12 +3,6 @@ package com.class17_2;
 public class NestedLoopDemo {
 
 	public static void main(String[] args) {
-		NestedLoopDemo obj=new NestedLoopDemo();
-		
-		obj.demo();
-	}
-	void demo() {
-		
 		
 		
 		for (int i=1; i<=2; i++) {

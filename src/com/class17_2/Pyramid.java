@@ -3,10 +3,6 @@ package com.class17_2;
 public class Pyramid {
 
 	public static void main(String[] args) {
-		Pyramid obj=new Pyramid();
-		obj.pyramid();
-	}
-	void pyramid() {
 		/*I want to print pattern
 		 * 		*
 		 *  	**

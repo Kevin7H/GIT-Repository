@@ -4,10 +4,6 @@ public class Clock {
 
 	public static void main(String[] args) {
 		//24 hours, 60 minutes
-		Clock obj = new Clock();
-		obj.clock();
-	}
-	void clock() {
 		
 		for (int h=0; h<24; h++) {
 			

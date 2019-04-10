@@ -4,11 +4,6 @@ public class CarMileage {
 
 	public static void main(String[] args) {
 		// 9999
-		CarMileage obj = new CarMileage();
-		
-		obj.car();
-	}
-		void car(){
 
 		for (int a = 0; a <= 9; a++) {
 
@@ -19,9 +14,8 @@ public class CarMileage {
 					for (int d=0; d<=9; d++) {
 						System.out.println(a+""+b+""+c+""+d);//0000; 0001; 0002
 					}
-					}
 				}
 			}
-		
+		}
 	}
 }

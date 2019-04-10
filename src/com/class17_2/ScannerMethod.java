@@ -2,62 +2,50 @@ package com.class17_2;
 
 import java.util.Scanner;
 
-public class ScannerMethod {
-
-	public class Application {
-
-	    public static void main(String[] args) {
-	        ScannerMethod scnMthd = new ScannerMethod();
-	        System.out.println(scnMthd.sum(125, 150));
-
-	    }
-
-	    void example() {
-
-	        System.out.println(“No return value and NO Parameters”);
-	    }
-
-	    void example2(String name) {
-
-	        System.out.println(“No return value but with Parameter : ” + name);
-	    }
-
-	    boolean example3() {
-
-	        System.out.println(“With return value and NO Parameters”);
-	        return true;
-	    }
-
-	    String example4(String name) {
-
-	        System.out.println(“No return value but with Parameter : ” + name);
-	        
-	        return name;
-	    }
-	    
-	    
-	    boolean example5(String name) {
-
-	        System.out.println(“No return value but with Parameter : ” + name);
-	        
-	        return false;
-	    }
-	    
-	    
-	    long example6(char name) {
-
-	        System.out.println(“No return value but with Parameter : ” + name);
-	        
-	        return name;
-	    }
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-
+ public class ScannerMethod {
+	
+	
+	public static void main(String[] args) {
+		
+		ScannerMethod obj = new ScannerMethod();
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int a = scan.nextInt();
+		int b = scan.nextInt();
+		int d =12;
+		
+		int c = obj.sum(d, 123);
+		System.out.println(obj.sum(a, b));
+		
+		
+//		obj.sum(12, 13);
+//		obj.sum(100, 100);
+//		
+//		obj.sub();
+//		obj.sub();
+		
 	}
+	
+	 public int sum(int a, int b) {
+		
+//		System.out.println(x +y);
+		
+		return b+a +100;
+		
+	}
+	
+	void sub() {
+		int a=10, b=12;
+		
+		System.out.println(a - b);
+
+		
+	}
+	
+	
+	
+	
+	
+
+}

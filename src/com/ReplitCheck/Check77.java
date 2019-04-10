@@ -1,17 +1,17 @@
 package com.ReplitCheck;
 
-public class Main {
+public class Check77 {
 
 	String carName, carColor;
 	int carModelYear;
 
 	public static void main(String[] args) {
-		Main c1 = new Main();
+		Check77 c1 = new Check77();
 		c1.carColor = "Black";
 		c1.carModelYear = 2019;
 		c1.carName = "BMW";
 
-		Main c2 = new Main();
+		Check77 c2 = new Check77();
 		c2.carColor = "White";
 		c2.carModelYear = 2018;
 		c2.carName = "Toyota";

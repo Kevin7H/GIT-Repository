@@ -3,10 +3,6 @@ package com.class17_2;
 public class NestedLoops {
 
 	public static void main(String[] args) {
-		NestedLoops obj=new NestedLoops();
-		obj.loops();
-	}
-	void loops() {
 	
 //		for (int i=0; i<=5; i++) {
 //			System.out.print(i);
