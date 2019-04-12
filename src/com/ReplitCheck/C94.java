@@ -19,11 +19,8 @@ public class C94 {
 //		    bothEven(4,6) ==> true
 //		    bothEven(3,4) ==> false
 //		    bothEven(-1,1) ==> false
-	
-	int num1, num2;
-	
 		
-	C94 m=new C94();
+		
 
 	boolean bothOdd(int num1, int num2) {
 		boolean s=false;
